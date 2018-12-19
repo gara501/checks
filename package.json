@@ -1,0 +1,43 @@
+{
+  "name": "checks",
+  "version": "1.0.0",
+  "description": "Checkboxes CSS styles",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode development",
+    "buildprod": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gara501/checks.git"
+  },
+  "keywords": [],
+  "author": "Gonzalo Andres Ramirez <gandres.ramirez@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gara501/checks/issues"
+  },
+  "homepage": "https://github.com/gara501/checks#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^2.0.1",
+    "file-loader": "^2.0.0",
+    "html-loader": "^0.5.5",
+    "style-loader": "^0.23.1",
+    "svg-inline-loader": "^0.8.0",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-hot-loader": "^4.6.2"
+  }
+}
